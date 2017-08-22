@@ -75,7 +75,7 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        app:srcCompat="@drawable/flower"
+
         android:id="@+id/iv1"
         android:layout_alignBottom="@+id/btn1" />
 

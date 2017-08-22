@@ -35,7 +35,8 @@ public class MainActivity extends AppCompatActivity {
     @BindView(R.id.tv2)
     TextView butterKnifeTv2;
 
-    @BindDrawable(R.drawable.flower)
+    //图像太大时会对按钮的点击事件有延时的影响
+    @BindDrawable(R.drawable.flower400)
     Drawable butterKnifeDrawable;
     @BindView(R.id.iv1)
     ImageView butterKnifeIv;
